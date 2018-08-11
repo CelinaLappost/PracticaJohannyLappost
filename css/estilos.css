@@ -1,0 +1,197 @@
+body{
+     font: 	15px Arial, helvetica, sans-serif;
+     padding: 0;
+     margin: 50px;
+     background-color: #FDFEFE;
+}
+
+/* estilos globales */
+.contenedor{
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+
+}
+
+.imgRedonda {
+    width:30px;
+    height:30px;
+    border-radius:350px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.boton1{
+	height: 38px;
+	background-color: #F1C40F;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #fff;
+}
+
+
+
+
+
+/* encabezado*/
+
+header{
+	background-color: #F39C12;
+	color: #fff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 5px solid #2980B9;
+}
+
+
+
+header a{
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 16px;
+
+
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #marca{
+	float: left;
+
+}
+
+}
+
+header #marca h1{
+	margin: 0;
+	
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header .resaltado, header .actual a{
+	color: #7B241C;
+	font-weight: bold;
+
+}
+
+header a:hover{
+	color: #ccc;
+	font-weight: bold;
+}
+
+/* cabecera de la imagen */
+
+  #cabecera{
+  	min-height: 400px;
+  	background-size: 100% 100%;
+  	animation-name: cabecera;
+  	animation-duration: 10s;
+  	animation-iteration-count: infinite;
+  	text-align: center;
+  	color: #F39C12;
+  }
+  @keyframes cabecera{
+  	0%, 30%{
+  		background-image: url(imagenes/descarga.jpg);
+  		opacity: 1;
+  	}
+
+  	31%, 34%{
+  		opacity: 0.1;
+  	}
+
+  	35%, 65%{
+  		background-image: url(imagenes/images.jpg);
+  		opacity: 1;
+  	}
+
+  	66%, 69%{
+  		opacity: 0.1;
+  	}
+
+  	70%, 100%
+  	{
+  		opacity: 1;
+  		background-image: url(imagenes/descarga(3).jpg);
+
+  	}
+
+
+
+  }
+
+  #cabecera h1{
+  	margin-top: 100px;
+  	font-size: 55px;
+  	margin-bottom: 10px;
+
+  }
+
+  #cabecera p{
+  	font-size: 20px;
+  }
+
+  /* formulario boletin*/
+
+  #boletin{
+  	padding: 15px;
+  	color: #CB4335;
+  	background: #A04000;
+
+  }
+
+  #boletin h1{
+  	float: left;
+
+  }
+
+  #boletin form{
+  	float: right;
+  	margin-top: 15px;
+  }
+
+  #boletin input[type="email"]{
+  	padding: 4px;
+  	height: 25px;
+  	width: 250px;
+  }
+
+  /* cajas*/
+
+  #cajas{
+  	margin-top: 20px;
+  }
+
+  #cajas. caja{
+  	float: left;
+  	text-align: center;
+  	width: 30%;
+  	padding: 10px;
+  }
+
+  #cajas .caja imagenes{
+  	width: 90px;
+  }
+
+  /*pie depag*/
+
+  footer{
+  	padding: 20px;
+  	margin-top: 20px;
+  	color: #fff;
+  	background-color: #A04000;
+  	text-align: center;
+  }
